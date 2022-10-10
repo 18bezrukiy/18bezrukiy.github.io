@@ -19,7 +19,7 @@ btn1.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали комбо с твистером!");
+		tg.MainButton.setText("Nike MAG");
 		item = "1";
 		tg.MainButton.show();
 	}
@@ -30,7 +30,7 @@ btn2.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали комбо с двумя боксмастерами!");
+		tg.MainButton.setText("Nike Air Max Bolt");
 		item = "2";
 		tg.MainButton.show();
 	}
@@ -41,7 +41,7 @@ btn3.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали комбо с 2 шефбургерами!");
+		tg.MainButton.setText("NIKE AIR JORDAN 1");
 		item = "3";
 		tg.MainButton.show();
 	}
@@ -52,7 +52,7 @@ btn4.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали комбо на двоих!");
+		tg.MainButton.setText("Adapt BB 2.0");
 		item = "4";
 		tg.MainButton.show();
 	}
@@ -63,7 +63,7 @@ btn5.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали комбо на двоих с баскетом!");
+		tg.MainButton.setText("Nike Air Max Plus");
 		item = "5";
 		tg.MainButton.show();
 	}
@@ -74,7 +74,7 @@ btn6.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали комбо с боксмастером и стрипсами!");
+		tg.MainButton.setText("Nike LeBron 12");
 		item = "6";
 		tg.MainButton.show();
 	}
@@ -93,4 +93,4 @@ p.innerText = `${tg.initDataUnsafe.user.first_name}
 ${tg.initDataUnsafe.user.last_name}`;
 
 
-usercard.appendChild(p); 
+usercard.appendChild(p);
