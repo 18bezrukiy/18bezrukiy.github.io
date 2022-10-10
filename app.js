@@ -3,7 +3,7 @@ let tg = window.Telegram.WebApp;
 tg.expand();
 
 tg.MainButton.textColor = "#FFFFFF";
-tg.MainButton.color = "#2cab37";
+tg.MainButton.color = "#3013c4";
 
 let item = "";
 
@@ -94,8 +94,3 @@ ${tg.initDataUnsafe.user.last_name}`;
 
 
 usercard.appendChild(p); 
-
-
-
-
-
